@@ -1,0 +1,22 @@
+[project]
+name = "simple-tools"
+version = "0.1.0"
+description = "Four small, dependency-free utility nodes for ComfyUI: resolution picker, clean image saver, batch progress and a simple counter."
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+dependencies = []
+classifiers = [
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Repository = "https://github.com/hyperbolic-sine/ComfyUI-SimpleTools"
+Issues = "https://github.com/hyperbolic-sine/ComfyUI-SimpleTools/issues"
+
+# Metadata for the ComfyUI Registry (https://registry.comfy.org).
+# PublisherId must match the publisher you create on the registry website
+# before running `comfy node publish`.
+[tool.comfy]
+PublisherId = "hyperbolic-sine"
+DisplayName = "Simple Tools"
+Icon = ""

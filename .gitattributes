@@ -1,0 +1,9 @@
+# Normalize line endings in the repository; keep the working tree on LF so that
+# Windows and Linux checkouts stay byte-identical.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.webp binary
+*.safetensors binary
+*.pyc binary
