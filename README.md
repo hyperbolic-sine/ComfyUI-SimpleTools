@@ -1,5 +1,9 @@
 # ComfyUI-SimpleTools
 
+![The Resolution Selector node set to 1080P and 9:16, with a live 1080×1920 readout under the node](docs/resolution-selector.jpg)
+
+*Resolution Selector — pick a tier and a ratio, read the exact output size under the node.*
+
 Four small, dependency-free utility nodes for ComfyUI. No model downloads, no
 extra pip packages — clone the folder into `custom_nodes/` and restart.
 
@@ -99,6 +103,8 @@ multiple of 8.
 
 `SimpleTools → Save Image Without Metadata`
 
+![The Save Image Without Metadata node with its filename_prefix, file_format, quality, lossless_webp and add_counter_to_filename widgets](docs/save-image-without-metadata.jpg)
+
 Writes images with no prompt, no workflow and no EXIF embedded — useful for
 intermediate results, previews or files you want to share as-is. Pair it with a
 metadata-saving node: clean copies from this one, full metadata on the final
@@ -193,6 +199,7 @@ ComfyUI-SimpleTools/
 ├── simple_counter.py        # Simple Counter
 ├── utils.py                 # shared VideoHelperSuite requeue detection
 ├── js/                      # frontend extensions (live readout, progress bar)
+├── docs/                    # screenshots used by this README
 └── tests/                   # unit tests
 ```
 
